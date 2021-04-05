@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FinalActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_final_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_final_activity"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:text="END"
+            android:textColor="@color/green"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:background="@drawable/circular_item_color_background"
+            android:layout_marginBottom="8dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DONE!"
+                android:textColor="@color/green"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:text="Congratulations!"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="You have completed todays workout"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="245dp"
+        android:layout_below="@+id/ll_final"
+        android:text="Finish"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        />
+
+
+</RelativeLayout>
