@@ -18,3 +18,10 @@ The app is user friendly as well, it includes BMI functionality as well which ca
 Along with that i have also include the functionality to store user BMI data permanently on the app using SQLite.
 
 Hope you like it :)
+
+
+
+![mainScreen](https://user-images.githubusercontent.com/52928325/113823002-c07bdc80-979b-11eb-9353-dd06400b6637.png)
+![2nd](https://user-images.githubusercontent.com/52928325/113823014-c376cd00-979b-11eb-9f53-2585e471999e.png)
+![3rd](https://user-images.githubusercontent.com/52928325/113823016-c4a7fa00-979b-11eb-8b33-fdf2acec45cc.png)
+![4th](https://user-images.githubusercontent.com/52928325/113823021-c5d92700-979b-11eb-8b70-6da3c671aefc.png)
