@@ -9,23 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WorkoutApp">
-        <activity android:name=".HistoryActivity"></activity>
+
+        <activity
+            android:name=".HistoryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".LetsCheckBmi"
             android:label="@string/title_activity_lets_check_bmi"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".FinalActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".EmptyActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

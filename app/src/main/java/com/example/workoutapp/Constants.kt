@@ -15,7 +15,7 @@ companion object {
         val wallSit = ExerciseModel(2, "Wall Sit", R.drawable.ic_wall_sit, false, false)
         exerciseList.add(wallSit)
 
-       /* val pushUp = ExerciseModel(3, "Push Up", R.drawable.ic_push_up, false, false)
+       val pushUp = ExerciseModel(3, "Push Up", R.drawable.ic_push_up, false, false)
         exerciseList.add(pushUp)
 
         val abdominalCrunch =
@@ -71,7 +71,7 @@ companion object {
         exerciseList.add(pushupAndRotation)
 
         val sidePlank = ExerciseModel(12, "Side Plank", R.drawable.ic_side_plank, false, false)
-        exerciseList.add(sidePlank)*/
+        exerciseList.add(sidePlank)
 
         return exerciseList
     }

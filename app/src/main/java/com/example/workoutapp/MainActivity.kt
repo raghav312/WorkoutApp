@@ -19,18 +19,16 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, EmptyActivity::class.java )
             startActivity(intent)
         }
-        ll_bmi_start.setOnClickListener{
 
+        ll_bmi_start.setOnClickListener{
             val intent = Intent(this, LetsCheckBmi::class.java )
             startActivity(intent)
-
         }
 
         ll_history_start.setOnClickListener{
             val intent = Intent(this , HistoryActivity::class.java)
             startActivity(intent)
         }
-
 
 
     }
